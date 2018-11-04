@@ -57,7 +57,7 @@ console.log();
 var k;
 function str(){
     for(var i=0; i<=k; i++){
-    document.write(i- "<br/>");
+    document.write(i+ "<br/>");
     }
     for(var j=k; j>=0; j--){
 
