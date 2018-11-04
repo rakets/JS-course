@@ -22,8 +22,6 @@ function stroka(){
 console.log();
 
 //-----------------------------3
-
-var a;
     function checkIt () {
         if (a === undefined){
              return "undefined";
