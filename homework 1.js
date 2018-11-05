@@ -45,8 +45,8 @@ function check() {
 }
 console.log();
 
-/* Начальное значение console.log(a.checked)        / {name: "John", age: 25, checked: false}
-   После запуска функции,значение console.log(a.checked)     /{name: "John", age: 25, checked: true} */
+/* Начальное значение console.log(a)        / {name: "John", age: 25}
+   После запуска функции,значение console.log(a)     /{name: "John", age: 25, checked: true} */
                                                                                                                 
 
 //------------------5
