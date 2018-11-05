@@ -4,10 +4,10 @@ var a;
 var b;
 function proverka (a,b){
     if (a>b){
-        alert("true");
+        document.write("true");
         }
     else    {
-        alert("false");
+        document.write("false");
         }
     }
 console.log();
@@ -37,16 +37,14 @@ console.log();
 
 //------------------4
 
-var a = {
-    name:"John",
-    age: 25};
+var b = {};
 function check() {
-    a.checked = true
+    b.checked = true
 }
 console.log();
 
-/* Начальное значение console.log(a)        / {name: "John", age: 25}
-   После запуска функции,значение console.log(a)     /{name: "John", age: 25, checked: true} */
+/* Начальное значение console.log(b)        / {}
+   После запуска функции,значение console.log(b)     /{checked: true} */
                                                                                                                 
 
 //------------------5
