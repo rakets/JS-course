@@ -37,10 +37,9 @@ console.log();
 
 //------------------4
 
- var a = {
+var a = {
     name:"John",
-    age: 25,
-    checked:false};
+    age: 25};
 function check() {
     a.checked = true
 }
