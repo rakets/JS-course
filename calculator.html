@@ -1,0 +1,40 @@
+<!DOCUMENT html>
+<html>
+  <head></head>
+<body>
+    <div id="displayWindow">
+    <div id="displayTop">0</div>
+    <div id="displayMain">0</div></div><br>
+        <button onclick="inputDigits('7')">7</button>
+        <button onclick="inputDigits('8')">8</button>
+        <button onclick="inputDigits('9')">9</button>
+        <button onclick="setOperation('-')">-</button><br>
+
+        <button onclick="inputDigits('4')">4</button>
+        <button onclick="inputDigits('5')">5</button>
+        <button onclick="inputDigits('6')">6</button>
+        <button onclick="setOperation('+')">+</button><br>
+
+        <button onclick="inputDigits('1')">1</button>
+        <button onclick="inputDigits('2')">2</button>
+        <button onclick="inputDigits('3')">3</button>
+        <button onclick="setOperation('/')">/</button><br>
+
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="inputDigits('0')">0</button>
+        <button onclick="setOperation('*')">*</button><br>
+        <button id="equal" onclick="calculateTotal()">=</button><br>
+        <br><br>
+    <div id="historyWindow">
+        <ol>
+            <li id="history1"></li>
+            <li id="history2"></li>
+            <li id="history3"></li>
+            <li id="history4"></li>
+            <li id="history5"></li>
+        </ol>
+
+    </div>
+    <script src=calculator.js></script>
+</body>
+</html>
